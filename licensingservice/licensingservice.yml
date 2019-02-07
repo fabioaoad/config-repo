@@ -1,0 +1,13 @@
+tracer.property: "I AM THE DEFAULT"
+example.property: "I AM A LOCAL PROPERTY OVERRIDE"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://127.0.0.1:5432/eagle_eye_local"
+spring.datasource.username: "postgres"
+spring.datasource.password: "{cipher}e0a557d37e80283e205f1083d5920bd82e7851e4f05faf27efd176084f27f95f"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+
